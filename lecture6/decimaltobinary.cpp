@@ -7,9 +7,7 @@ void  binary( int n){
         if (n^1)
         {
            
-        }
-        
-       
+        }     
     }
 
 }
