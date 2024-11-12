@@ -1,42 +1,63 @@
 #include <iostream>
 #include <vector>
 using namespace std;
+ 
+int main (){
 
-void  Transpose(vector<vector<int> > &arr) {
-    cout << "Done";
-    int n = arr.size()-1; 
-    for (int i = 0; i < n; i++) {
-        for (int j = i + 1; j < (arr[0].size()-1); j++) {
-            swap(arr[i][j], arr[j][i]);
-        }
+cout << "Hello" << endl;
+int arr[3][3]{1,2,3,4,5,6,7,8,9};
+
+for (int i = 0; i < 3; i++)
+{
+    for (int j = 0; j < 3 ; j++)
+    {
+        cout << arr[i][j] << " ";
+    }
+    cout << endl;   
+}
+cout << endl;   
+
+
+for (int i = 0; i < 3; i++)
+{
+    for (int j = i; j < 3 ; j++)
+    {
+       swap(arr[i][j], arr[j][i]);
+    }
+    
+}
+
+for (int i = 0; i < 3; i++)
+{
+    for (int j = 0; j < 3 ; j++)
+    {
+        cout << arr[i][j] << " ";
+    }
+    cout << endl;   
+}
+
+cout << endl;
+
+for (int i = 0; i < 3; i++)
+{
+    int start = 0; int end = 2;
+    while( start < end){
+        swap(arr[i][start], arr[i][end]);
+        start++;
+        end--;
     }
 }
 
 
-void printarray( vector<vector<int>> &arr){
-    cout << " Normal Print "<< endl;
-    for (size_t i = 0; i < arr.size(); i++)
-    {
-        for (size_t j = 0; j < arr[0].size(); j++)
-        {
-           cout << arr[i][j] << "       ";
-        }
-        cout << endl;
-        
-    }
-    }
- 
-int main (){
- vector<vector<int> >arr = {
-        {1, 2, 3, 4},
-        {5, 6, 7, 8},
-        {9, 10, 11, 12}
-    };
 
-    printarray(arr);
-    Transpose(arr);
-    printarray(arr);
-    
+for (int i = 0; i < 3; i++)
+{
+    for (int j = 0; j < 3 ; j++)
+    {
+        cout << arr[i][j] << " ";
+    }
+    cout << endl;   
+}
  
 return 0;
 }

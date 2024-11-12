@@ -28,6 +28,9 @@ int solve(int dividend, int divisor)
     return ans;
 }
 
+int divideBS(int dividend, int divisor){
+    
+}
 int main()
 {
     int dividend = 22;
