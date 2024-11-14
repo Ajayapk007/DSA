@@ -1,42 +1,37 @@
 #include <iostream>
 #include <vector>
 using namespace std;
-int solve(int dividend, int divisor)
-{
-    int start = 0;
-    int end = dividend;
-    int ans =0;
-    int mid = start + ( end -start ) / 2;
+
+int divideBS(int dividend, int divisor){
+    int start = 0; int end = dividend;
+    int mid; int ans = -1;
     while (start <= end)
     {
-        if (mid * divisor == dividend)
-        {
-            return mid;
+        mid = start + (end - start)/2;
+        if(mid * divisor == dividend){
+             return mid;
         }
-        else if (mid * divisor <= dividend)
-        {
+        if(mid * divisor <= dividend ){
             ans = mid;
-            start = mid + 1;
+            start = mid+1;
         }
-        else
-        {
+        else 
             end = mid - 1;
-        }
-
-        mid = start + ( end- start) / 2;
     }
     return ans;
 }
-
-int divideBS(int dividend, int divisor){
-    
-}
 int main()
 {
-    int dividend = 22;
-    int divisor = 7;
+    int dividend = -7;
+    int divisor = -7;
 
-    int ans = solve(dividend, divisor);
-    cout << " Your ans is " << ans << endl;
+    int ans2 = divideBS(dividend, divisor);
+
+    if((dividend > 0 && divisor < 0 )|| (dividend < 0 && divisor > 0) )
+    {
+        ans2 =  0 - ans2;   
+    }
+
+    cout << "Answer of dividedBS function " << ans2 << " " <<endl;
     return 0;
 }

@@ -21,6 +21,7 @@ void binarySearch( int arr[][3], int target , int rows , int coln){
         cout << " Does not found" << endl;
 }
 
+
 int main()
 {
     int arr[3][3] = {1, 2, 3, 4, 5, 6, 7, 8, 9};
@@ -38,6 +39,21 @@ int main()
     }
   
     
+    cout     << "Wave Print " << endl;
+    // Wave print logic (alternating column traversal)
+    // Wave print logic (alternating column traversal)
+    for (int i = 0; i < 3; i++) {
+        if (!(i & 1)) { // even column, top to bottom
+            for (int j = 0; j < 3; j++) {
+                cout << arr[j][i] << " ";
+            }
+        } else { // odd column, bottom to top
+            for (int j = 2; j >= 0; j--) {
+                cout << arr[j][i] << " ";
+            }
+        }
+       
+    }
     binarySearch( arr, target , 3,3);
 
         return 0;
