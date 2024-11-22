@@ -38,12 +38,14 @@ int oddOccurrences(vector<int> &arr){
     if(start == end) return start;
     while(start < end){
         mid = start +(end - start)/2;
+        if(arr[mid] != arr[mid-1] && arr[mid] != arr[mid+1] ) return mid;
+        cout << "iterations " << endl;
         if(mid & 1){
             if(arr[mid] == arr[mid-1]){
                 start = mid+1;
             }
             else{
-                end = mid;
+                end = mid-1 ;
             }
         }
         else{
@@ -60,7 +62,7 @@ int oddOccurrences(vector<int> &arr){
 }
 
 int main (){
-    vector<int> arr{1,1,2,2,3,3,4,4,3,6,6,4,4};
+    vector<int> arr{1,1,2,2,3,3,4,4,9,9,6,6,77,77};
     int ans = solve( arr);
     int newAns = oddOccurrences(arr);
     cout << "odd occurene is " << arr[ans] << endl;;
