@@ -44,7 +44,7 @@ Every folder here corresponds to a week of the course. The code is written in **
 All problems and concepts in this repo are from:
 
 > **CodeHelp — DSA Supreme 2.0 by Love Babbar**
-> 🔗 [https://www.youtube.com/@CodeHelp](https://www.youtube.com/@CodeHelp)
+> 🔗 [https://www.codehelp.in/](https://www.youtube.com/@CodeHelp)
 
 Love Babbar's course is structured week-by-week and covers everything from basics to advanced DSA — highly recommended for anyone starting out.
 
@@ -52,9 +52,9 @@ Love Babbar's course is structured week-by-week and covers everything from basic
 
 ## 🚀 What's Next — LeetCode
 
-After completing the CodeHelp DSA course, I moved on to **LeetCode** to apply these concepts by solving real interview problems.
+After completing Week-12 of the CodeHelp DSA course by Love Babbar, I moved on to **LeetCode** to apply these concepts by solving real interview problems — and continued my DSA journey there.
 
-🔗 **My LeetCode Profile:** [YOUR_LEETCODE_PROFILE_LINK_HERE]
+🔗 **My LeetCode Profile:** [https://leetcode.com/ajayapk007/]
 
 Feel free to check out my solutions and progress there!
 
