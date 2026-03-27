@@ -54,7 +54,7 @@ Love Babbar's course is structured week-by-week and covers everything from basic
 
 After completing Week-12 of the CodeHelp DSA course by Love Babbar, I moved on to **LeetCode** to apply these concepts by solving real interview problems — and continued my DSA journey there.
 
-🔗 **My LeetCode Profile:** [https://leetcode.com/ajayapk007/]
+🔗 **My LeetCode Profile:** [LeetCode](https://leetcode.com/ajayapk007/)
 
 Feel free to check out my solutions and progress there!
 
@@ -62,9 +62,9 @@ Feel free to check out my solutions and progress there!
 
 ## 🤝 Connect
 
-- **LeetCode:** [https://www.linkedin.com/in/ajay-pal-/]
+- **Linkedin:** [Ajay Pal](https://www.linkedin.com/in/ajay-pal-/)
 - **GitHub:** [Ajayapk007](https://github.com/Ajayapk007)
-- **LeetCode:** [https://leetcode.com/u/ajayapk007/]
+- **LeetCode:** [Ajayapk007](https://leetcode.com/u/ajayapk007/)
 
 ---
 
